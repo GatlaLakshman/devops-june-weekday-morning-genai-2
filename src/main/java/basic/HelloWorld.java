@@ -8,7 +8,7 @@ public class HelloWorld {
 	
 	//from b1 branch , in real time it could be a bug fix or new fix or modification or deletion of the feature( dx )
 	public void m1() {
-		System.out.println("from method-1"); //from d1 branch (from developer-2 point of view)
+		System.out.println("from method-1");//from c1 branch (for merge conflict) PLUS //from d1 branch (from developer-2 point of view)
 	}
 	//code change can be one or more files 
 }
